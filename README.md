@@ -1,2 +1,2 @@
 # amethyst-railway-deploy
-A repo to deploy amethyst bot
+A repo to help deploy amethyst bot quickly.
