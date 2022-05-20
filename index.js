@@ -1,6 +1,6 @@
 var exec = require('child_process').exec;
 
-exec('sudo apt install ffmpeg && git clone https://github.com/imagineeeinc/Amethyst.git && cd Amethyst && npm i && npm start ', function (error, stdout, stderr) {
+exec('apt install ffmpeg && git clone https://github.com/imagineeeinc/Amethyst.git && cd Amethyst && npm i && npm start ', function (error, stdout, stderr) {
     console.log('stdout: ' + stdout);
     console.log('stderr: ' + stderr);
     if (error !== null) {
