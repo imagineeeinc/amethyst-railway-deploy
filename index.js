@@ -7,7 +7,7 @@ exec("curl https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static
             console.log('exec error: ' + error);
     }
 });
-exec("git clone https://github.com/imagineeeinc/Amethyst.git && cd Amethyst && npm i && npm start", function (error, stdout, stderr) {
+exec("git clone https://github.com/imagineeeinc/Amethyst.git && cd Amethyst && npm i && npm i ffmpeg-static && npm start", function (error, stdout, stderr) {
     console.log('stdout: ' + stdout);
     console.log('stderr: ' + stderr);
     if (error !== null) {
