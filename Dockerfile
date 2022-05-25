@@ -4,6 +4,6 @@ WORKDIR /
 
 COPY index.js ./
 
-RUN apt install build-essential
+RUN apt install gcc
 
 CMD ["node", "index.js"]
